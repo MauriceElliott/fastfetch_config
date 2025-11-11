@@ -43,91 +43,91 @@
         {
           "key": "╭───────────╮",
           "type": "custom",
-          "keyColor": "white"
+          "keyColor": "black"
         },
         {
             // draw borders first to make colors of left and right border consistant
-            "key": "│{#31}  user    {#white}│ ",
+            "key": "│{#31}  user    {#black}│ ",
             "type": "title",
             "format": "{user-name}",
-            "keyColor": "white"
+            "keyColor": "black"
         },
         {
-            "key": "│{#32} 󰇅 host    {#white}│ ",
+            "key": "│{#32} 󰇅 host    {#black}│ ",
             "type": "title",
             "format": "{host-name}",
-            "keyColor": "white"
+            "keyColor": "black"
 
         },
         {
-            "key": "│{#33} 󰅐 uptime  {#white}│ ",
+            "key": "│{#33} 󰅐 uptime  {#black}│ ",
             "type": "uptime",
-            "keyColor": "white",
+            "keyColor": "black",
             "format": "{1} days {2} hours {3} mins"
         },
         {
-            "key": "│{#34} {icon} distro  {#white}│ ",
+            "key": "│{#34} {icon} distro  {#black}│ ",
             "type": "os",
-            "keyColor": "white",
+            "keyColor": "black",
             "format": "{name} {codename}"
         },
         {
-            "key": "│{#35}  kernel  {#white}│ ",
+            "key": "│{#35}  kernel  {#black}│ ",
             "type": "kernel",
-            "keyColor": "white",
+            "keyColor": "black",
             "format": "{sysname}"
         },
         {
-            "key": "│{#36} 󰇄 display {#white}│ ",
+            "key": "│{#36} 󰇄 display {#black}│ ",
             "type": "display",
-            "keyColor": "white",
+            "keyColor": "black",
             "format": "{width}x{height} @ {refresh-rate} Hz"
         },
         {
-            "key": "│{#31}  terminal{#white}│ ",
+            "key": "│{#31}  terminal{#black}│ ",
             "type": "terminal",
-            "keyColor": "white",
+            "keyColor": "black",
             "format": "{pretty-name}"
         },
         {
-            "key": "│{#32}  shell   {#white}│ ",
+            "key": "│{#32}  shell   {#black}│ ",
             "type": "shell",
-            "keyColor": "white",
+            "keyColor": "black",
             "format": "{pretty-name}"
         },
         {
-            "key": "│{#33} 󰍛 cpu     {#white}│ ",
+            "key": "│{#33} 󰍛 cpu     {#black}│ ",
             "type": "cpu",
-            "keyColor": "white",
+            "keyColor": "black",
             "format": "{name}"
         },
         {
-            "key": "│{#34} 󰉉 disk    {#white}│ ",
+            "key": "│{#34} 󰉉 disk    {#black}│ ",
             "type": "disk",
             "folders": "/",
-            "keyColor": "white",
+            "keyColor": "black",
             "format": "{1} / {2} ({3})"
         },
         {
-            "key": "│{#35} 󰍛 memory  {#white}│ ",
+            "key": "│{#35} 󰍛 memory  {#black}│ ",
             "type": "memory",
-            "keyColor": "white"
+            "keyColor": "black"
         },
         {
           "key": "├───────────┤",
           "type": "custom",
-          "keyColor": "white"
+          "keyColor": "black"
         },
         {
-            "key": "│{#39} 󰏘 colors  {#white}│ ",
+            "key": "│{#39} 󰏘 colors  {#black}│ ",
             "type": "colors",
             "symbol": "square",
-            "keyColor": "white"
+            "keyColor": "black"
         },
         {
             "key": "╰───────────╯",
             "type": "custom",
-            "keyColor": "white"
+            "keyColor": "black"
         }
     ]
 }
