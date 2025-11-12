@@ -3,131 +3,108 @@
 {   
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        "type":"kitty",
+        "type": "kitty-direct",
         "padding": {
             "top": 1,
             "left": 1,
             "right": 2
         },
-        "width": 17,
-        "height":17,
-        "source": "~/.config/fastfetch/img/2b_1.png"
+        "width": 23,
+        "height":15,
+        "source": "~/.config/fastfetch/img/2b_2.png"
     },
-    // "logo": {
-    //     "type":"kitty",
-    //     "padding": {
-    //         "top": 1,
-    //         "left": 1,
-    //         "right": 2
-    //     },
-    //     "width": 28,
-    //    "height":17,
-    //     "source": "~/.config/fastfetch/img/2b_2.png"
-    // },
-    // "logo": {
-    //     "type":"kitty",
-    //     "padding": {
-    //         "top": 1,
-    //         "left": 1,
-    //         "right": 2
-    //     },
-    //     "width": 25,
-    //     "height":19,
-    //     "source": "~/.config/fastfetch/img/2b_4.png"
-    // },
-
-   "display": {
+    "display": {
         "separator": ""
     },
     "modules": [
         {
           "key": "╭───────────╮",
           "type": "custom",
-          "keyColor": "black"
+          "keyColor": "white"
         },
         {
             // draw borders first to make colors of left and right border consistant
-            "key": "│{#31}  user    {#black}│ ",
+            "key": "│{#31}  user    {#white}│ ",
             "type": "title",
             "format": "{user-name}",
-            "keyColor": "black"
+            "keyColor": "white"
         },
         {
-            "key": "│{#32} 󰇅 host    {#black}│ ",
+            "key": "│{#32} 󰇅 host    {#white}│ ",
             "type": "title",
             "format": "{host-name}",
-            "keyColor": "black"
+            "keyColor": "white"
 
         },
         {
-            "key": "│{#33} 󰅐 uptime  {#black}│ ",
+            "key": "│{#33} 󰅐 uptime  {#white}│ ",
             "type": "uptime",
-            "keyColor": "black",
+            "keyColor": "white",
             "format": "{1} days {2} hours {3} mins"
         },
         {
-            "key": "│{#34} {icon} distro  {#black}│ ",
+            "key": "│{#34} {icon} distro  {#white}│ ",
             "type": "os",
-            "keyColor": "black",
+            "keyColor": "white",
             "format": "{name} {codename}"
         },
         {
-            "key": "│{#35}  kernel  {#black}│ ",
+            "key": "│{#35}  kernel  {#white}│ ",
             "type": "kernel",
-            "keyColor": "black",
+            "keyColor": "white",
             "format": "{sysname}"
         },
         {
-            "key": "│{#36} 󰇄 display {#black}│ ",
+            "key": "│{#36} 󰇄 display {#white}│ ",
             "type": "display",
-            "keyColor": "black",
+            "keyColor": "white",
             "format": "{width}x{height} @ {refresh-rate} Hz"
         },
         {
-            "key": "│{#31}  terminal{#black}│ ",
+            "key": "│{#31}  terminal{#white}│ ",
             "type": "terminal",
-            "keyColor": "black",
+            "keyColor": "white",
             "format": "{pretty-name}"
         },
         {
-            "key": "│{#32}  shell   {#black}│ ",
+            "key": "│{#32}  shell   {#white}│ ",
             "type": "shell",
-            "keyColor": "black",
+            "keyColor": "white",
             "format": "{pretty-name}"
         },
         {
-            "key": "│{#33} 󰍛 cpu     {#black}│ ",
+            "key": "│{#33} 󰍛 cpu     {#white}│ ",
             "type": "cpu",
-            "keyColor": "black",
+            "keyColor": "white",
             "format": "{name}"
         },
         {
-            "key": "│{#34} 󰉉 disk    {#black}│ ",
+            "key": "│{#34} 󰉉 disk    {#white}│ ",
             "type": "disk",
             "folders": "/",
-            "keyColor": "black",
+            "keyColor": "white",
             "format": "{1} / {2} ({3})"
         },
         {
-            "key": "│{#35} 󰍛 memory  {#black}│ ",
+            "key": "│{#35} 󰍛 memory  {#white}│ ",
             "type": "memory",
-            "keyColor": "black"
+            "keyColor": "white"
         },
         {
           "key": "├───────────┤",
           "type": "custom",
-          "keyColor": "black"
+          "keyColor": "white"
         },
         {
-            "key": "│{#39} 󰏘 colors  {#black}│ ",
+            "key": "│{#39} 󰏘 colors  {#white}│ ",
             "type": "colors",
             "symbol": "square",
-            "keyColor": "black"
+            "keyColor": "white"
         },
         {
             "key": "╰───────────╯",
             "type": "custom",
-            "keyColor": "black"
+            "keyColor": "white"
         }
     ]
 }
