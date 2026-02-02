@@ -3,16 +3,24 @@
 {   
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        "type": "kitty-direct",
+        "type": "small",
         "padding": {
-            "top": 1,
-            "left": 1,
-            "right": 2
-        },
-        "width": 23,
-        "height":15,
-        "source": "~/.config/fastfetch/img/2b_2.png"
+            "top": 2,
+            "right": 3,
+            "left": 1
+        }
     },
+    // "logo": {
+    //     "type": "kitty-direct",
+    //     "padding": {
+    //         "top": 1,
+    //         "left": 1,
+    //         "right": 2
+    //     },
+    //     "width": 23,
+    //     "height":15,
+    //     "source": "~/.config/fastfetch/img/2b_2.png"
+    // },
     "display": {
         "separator": ""
     },
